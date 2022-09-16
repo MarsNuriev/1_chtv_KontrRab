@@ -7,7 +7,7 @@ string[] array = new string[4];
 for (int i = 0; i< array.Length; i++)
 {
     System.Console.Write($"array[{i}]: ");
-    array[i] = Convert.ToString(Console.ReadLine());
+    array[i] = Convert.ToString(Console.ReadLine()!);
 }
 void PrintArray(string[] arr)
 {
